@@ -23,6 +23,12 @@ header{
   height: 40px;
   border-radius: 20px;
   background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.share-button:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
 }
 
 .share-button svg {
